@@ -28,7 +28,8 @@ public interface InformationEstimatorInterface{
 }                        
 */
 
-// aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+// aaaaaaaaaaaaaaaaaaaaaaaaaaaaai
+// iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 public class TestCase {
     public static void main(String[] args) {
 	int c;

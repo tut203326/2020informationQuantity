@@ -38,10 +38,7 @@ public class Frequencer implements FrequencerInterface {
         for(int start = 0; start<spaceLength; start++) { // Is it OK?
             boolean abort = false;
             for(int i = 0; i<targetLength; i++) {
-                if(myTarget[i] != mySpace[start+i]) { //配列の最後の要素の次の要素にアクセスしているからエラーが起こる(手順書9)
-                    abort = true; 
-                    break; 
-                }
+                if(myTarget[i] != mySpace[start+i]) { abort = true; break; }
             }
             if(abort == false) { count++; }
         }
